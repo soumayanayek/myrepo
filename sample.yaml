@@ -1,0 +1,22 @@
+medf:
+  flavors:
+    fv1: m1.tiny
+    fv2: m1.small
+    fv3: m1.medium
+  creds:
+    username: admin
+    password: test
+    auth-url: https://127.0.0.1:5000/v3
+    project: admin
+    identity-api-version: 3
+  key: test.key
+  network:
+    subnet:
+      range:
+      gateway:
+  ex_gateway:
+  instances:
+    mfwint1:
+    mfwint2:
+    mflin1:
+    mflin2:
